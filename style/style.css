@@ -1,0 +1,39 @@
+body {
+	margin: 1em auto;
+	padding: 0.62em;
+	font:1.2em/1.62 sans-serif;
+}
+
+/* Set additional styling options for the columns */
+.column {
+	float: left;
+}
+
+h1, h2, h3 {
+	line-height:1.2;
+}
+
+.left {
+	width: 25%;
+	float: center;
+	text-align:center;
+}
+
+.right {
+	width: 70%;
+	padding: 0.62em;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile_picture { 
+	display: block;
+	margin: auto;
+	max-width: 90%;
+	max-height: 90%;
+	border-radius: 50%;
+}
