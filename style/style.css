@@ -1,6 +1,6 @@
 body {
 	margin: 1em auto;
-	padding: 0.62em;
+	margin-top:0em;
 	font:1.2em/1.62 sans-serif;
 }
 
@@ -13,15 +13,34 @@ h1, h2, h3 {
 	line-height:1.2;
 }
 
+#img-link {
+	text-decoration:none;
+}
+
+.icon {
+	width: 32px;
+	height: 32px;
+	padding-left: 0.75vw;
+	padding-right: 0.75vw;
+}
+
+.fixed {
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	float: center;
+	text-align: center;
+	background-color:#d3e5ed;
+}
 .left {
 	width: 25%;
 	float: center;
-	text-align:center;
+	text-align: center;
 }
 
 .right {
 	width: 70%;
-	padding: 0.62em;
+	padding-left: 2.5vw;
 }
 
 .row:after {
